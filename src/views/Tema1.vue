@@ -62,7 +62,7 @@
     p Hay cuatro etapas en un proceso típico de ingeniería de requisitos utilizadas para el desarrollo de un producto único, que son: elicitación, análisis, especificación y validación de los requisitos.  
     p El siguiente gráfico conlleva a conocer las etapas mencionadas:
 
-    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="zoom-in")
+    ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/img02.svg')
@@ -155,7 +155,7 @@ export default {
       {
         titulo: 'Modelos de segmentación',
         texto:
-          'Dividen los datos en segmentos o clúster de registros que tienen patrones similares de campos de entrada. Como solo se interesan por los campos de entrada, los modelos de segmentación no contemplan el concepto de campos de salida o destino. Ejemplos de modelos de segmentación son las redes Kohonen, la agrupación en clúster de K-medias, la agrupación en clúster en dos pasos y la detección de anomalías.',
+          'Dividen los datos en segmentos o <em>clúster</em> de registros que tienen patrones similares de campos de entrada. Como solo se interesan por los campos de entrada, los modelos de segmentación no contemplan el concepto de campos de salida o destino. Ejemplos de modelos de segmentación son las redes Kohonen, la agrupación en <em>clúster</em> de K-medias, la agrupación en <em>clúster</em> en dos pasos y la detección de anomalías.',
         imagen: require('@/assets/curso/tema1/img06.jpg'),
       },
     ],

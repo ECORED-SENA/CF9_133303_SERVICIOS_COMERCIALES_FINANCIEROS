@@ -230,7 +230,9 @@
 
     .row.justify-content-center.mb-4
       .col-md-10.BGIMG01(data-aos="zoom-in")
-        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+        .row.justify-content-center
+          .col-md-9.col-11
+            LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
 
 </template>
 

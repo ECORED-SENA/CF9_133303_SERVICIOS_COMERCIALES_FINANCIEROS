@@ -60,7 +60,7 @@
   .container.BG09.p-4.p-md-5  
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2  2.2	Políticas de seguridad 
-    p Para entender los términos sobre políticas de seguridad es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
+    p Para entender los términos sobre #[strong políticas de seguridad] es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
     p Ahora, si se le adiciona el concepto de seguridad, por supuesto se refiere a la declaración de alto nivel donde la organización fija una posición frente a la necesidad de contar con un sistema de gestión de seguridad de la información, que identifique el qué, de quién y cómo se deben proteger los recursos o activos tecnológicos necesarios para el cumplimiento del #[i core] de la empresa.
     
     .row.justify-content-center
