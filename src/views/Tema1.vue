@@ -18,25 +18,25 @@
           .col-md-7.p-4
             ul.lista-ul--color
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Entender lo que el cliente quiere.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Analizar las necesidades.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Evaluar la factibilidad.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Negociar una solución razonable.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Especificar la solución sin ambigüedades.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Validar la especificación.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 p.mb-0 Administrar los requisitos y conforme a estos se transforman en un sistema operacional. 
       .col-md-1.col-2(data-aos="fade-left")
         img(src='@/assets/curso/temas/img02.png')
@@ -101,7 +101,8 @@
       .col-md-10.BGR05.p-4.mb-4
         .row.justify-content-around.align-items-center
           .col-lg-2.col-sm-2.col-3(data-aos="fade-right")
-            img.w-75(src="@/assets/curso/tema1/img03.png")
+            figure
+              img.w-50(src="@/assets/curso/tema1/img03.png")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -126,7 +127,7 @@
       .col-md-10
         .bloque-texto-a.color-primario.p-4.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-4.col-8.mb-lg-0(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img07.png")
             .col-lg-8(data-aos="fade-left")
               .bloque-texto-a__texto.p-4

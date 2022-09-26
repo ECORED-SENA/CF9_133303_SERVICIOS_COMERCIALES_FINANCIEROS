@@ -29,20 +29,20 @@
     p A continuación se describe cada concepto:
 
     .row.justify-content-center.mb-5
-      .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
+      .col-md-4.col-10.mb-md-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img02.png' alt='AvatarTop')
           .BGR06.p-4
             h4.text-center.mt-5 Confidencialidad
             p.mb-0 La confidencialidad se refiere a los esfuerzos de una organización para mantener sus datos privados o secretos. En la práctica, se trata de controlar el acceso a los datos para evitar su divulgación no autorizada.
-      .col-md-4.col-8.mb-md-0.mb-4(data-aos="zoom-in")
+      .col-md-4.col-10.mb-md-0.mb-4(data-aos="zoom-in")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img03.png' alt='AvatarTop')
           .BGR07.p-4
             h4.text-center.mt-5 Integralidad
             p En seguridad informática, la integridad consiste en garantizar que los datos no hayan sido manipulados y, por lo tanto, sean confiables.
             p.mb-0 Garantizar la integridad implica proteger los datos en uso, en tránsito (por ejemplo, al enviar un correo electrónico o al cargar o descargar un archivo) y al almacenarlos, ya sea en aparatos físicos o en la nube.
-      .col-md-4.col-8(data-aos="fade-left")
+      .col-md-4.col-10(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
           .BGR08.p-4
@@ -59,23 +59,24 @@
     separador
   .container.BG09.p-4.p-md-5  
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2  2.2	Políticas de seguridad 
-    p Para entender los términos sobre #[strong políticas de seguridad] es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
-    p Ahora, si se le adiciona el concepto de seguridad, por supuesto se refiere a la declaración de alto nivel donde la organización fija una posición frente a la necesidad de contar con un sistema de gestión de seguridad de la información, que identifique el qué, de quién y cómo se deben proteger los recursos o activos tecnológicos necesarios para el cumplimiento del #[i core] de la empresa.
-    
-    .row.justify-content-center
-      .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema2/img05.png')
-      .col-md-7(data-aos="fade-left")
-        .bloque-texto-d.color-acento-contenido.p-4
-          .bloque-texto-d__texto.mb-2
-            p En términos más generales,
-            <br><br>
-            i.fas.fa-quote-left
-            p las políticas de seguridad son un conjunto de reglas, normas y protocolos de actuación que se encargan de velar por la seguridad informática de la empresa. Se trata de una especie de plan realizado para combatir todos los riesgos a los que está expuesta la empresa en el mundo digital.  De esta forma se mantendrá la organización alejada de cualquier ataque externo peligroso
-            i.fas.fa-quote-right
-          .bloque-texto-d__autor 
-            .h4.mb-0 (Caurín, 2018).
+      h2  2.2	Políticas de seguridad
+    .BG09.p-4
+      p Para entender los términos sobre #[strong políticas de seguridad] es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
+      p Ahora, si se le adiciona el concepto de seguridad, por supuesto se refiere a la declaración de alto nivel donde la organización fija una posición frente a la necesidad de contar con un sistema de gestión de seguridad de la información, que identifique el qué, de quién y cómo se deben proteger los recursos o activos tecnológicos necesarios para el cumplimiento del #[i core] de la empresa.
+      
+      .row.justify-content-center
+        .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img05.png')
+        .col-md-7(data-aos="fade-left")
+          .bloque-texto-d.color-acento-contenido.p-4
+            .bloque-texto-d__texto.mb-2
+              p En términos más generales,
+              <br><br>
+              i.fas.fa-quote-left
+              p las políticas de seguridad son un conjunto de reglas, normas y protocolos de actuación que se encargan de velar por la seguridad informática de la empresa. Se trata de una especie de plan realizado para combatir todos los riesgos a los que está expuesta la empresa en el mundo digital.  De esta forma se mantendrá la organización alejada de cualquier ataque externo peligroso
+              i.fas.fa-quote-right
+            .bloque-texto-d__autor 
+              .h4.mb-0 (Caurín, 2018).
     separador
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -121,16 +122,16 @@
             p Para poder llevar a cabo un proceso correcto o adecuado de valuación de riesgos, de manera general se deben realizar las siguientes actividades:
             ul.lista-ul--color
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Identificar todos aquellos activos de información que tienen algún valor para la organización.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Asociar las amenazas relevantes con los activos identificados.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 | Determinar las vulnerabilidades que puedan ser aprovechadas por dichas amenazas.
               li
-                <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                <i class="fas fa-circle" style="color:#FC8116"></i>
                 p.mb-0 Identificar el impacto que podría suponer una pérdida de confidencialidad, integridad y disponibilidad para cada activo.
           .col-1
             img(src='@/assets/curso/temas/img05.png')
@@ -148,25 +149,25 @@
     p De acuerdo con esta norma es necesario clasificar e inventariar todos los activos de la información de una empresa luego de ser identificados, esto se hace como cumplimiento al modelo de seguridad y privacidad de la información, el cual presenta la siguiente forma: 
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-3.col-8.mb-md-0.mb-4(data-aos="fade-right")
+      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="fade-right")
         .tarjeta-numerada.color-primario.p-5.pb-5
           .tarjeta-numerada__numero
             .h2 1
           .h4 Inventario de activos: 
           p.mb-5 se deben identificar todos los activos de la compañía y a su vez crear un inventario de estos.<br><br>
-      .col-md-3.col-8.mb-md-0.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-acento-contenido.p-5.p-5.pb-5
           .tarjeta-numerada__numero
             .h2 2
           .h4 Propiedad de activos: 
           p.mb-5 cada activo identificado debe contar con un responsable o propietario.<br><br>
-      .col-md-3.col-8.mb-md-0.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 3
           .h4 Clasificación de la información: 
           p.mb-0 se debe realizar su respectiva clasificación dependiendo del requerimiento legal, valor, criticidad, divulgación y modificación.   
-      .col-md-3.col-8(data-aos="fade-left")
+      .col-lg-3.col-sm-6(datsmaos="fade-left")
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 4

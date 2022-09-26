@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.pt-4.pt-md-5.px-4.px-md-5.pb-0
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -35,10 +35,10 @@
               p Al hilo de lo anterior, el término derecho de autor, tal y como se contempla hoy en la legislación y en las normas internacionales sobre la materia, comprendería fundamentalmente dos aspectos:
               ul.lista-ul--color
                 li
-                  <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                  <i class="fas fa-circle" style="color:#FC8116"></i>
                   | El aspecto patrimonial.
                 li
-                  <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                  <i class="fas fa-circle" style="color:#FC8116"></i>
                   | El aspecto moral.
           .row.justify-content-center.align-items-center
             .col-md-5.col-10.mb-md-0.mb-4
@@ -52,7 +52,7 @@
               p Aunque el derecho de autor es inescindible (no se puede dividir), tiene un contenido plural de facultades:
               ul.lista-ul--color
                 li
-                  <i class="fas fa-dot-circle" style="color:#FC8116"></i>
+                  <i class="fas fa-circle" style="color:#FC8116"></i>
                   | Las patrimoniales y las personales. 
                 
     p En el derecho de autor la ley protege al autor de la obra, declarando a favor de este el derecho que posee. En cambio, en el sistema de #[i copyright], la ley va a proteger al autor una vez que este cumpla con una serie de formalidades establecidas por esta para tal fin.
@@ -174,31 +174,31 @@
                 a.boton.color-acento-botones(href="https://www.wipo.int/edocs/pubdocs/es/wipo_pub_909_2016.pdf" target="_blank")
                   span Descargar  
                   i.fas.fa-file-download
-    separador
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Protección de la propiedad intelectual
+    separador.mb-0
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
+    .BG09.p-4
+      #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.1 Protección de la propiedad intelectual
 
-    .row.justify-content-center.mb-4
-      .col-md-8.order-md-1.order-2
-        p Refiere a la protección de las creaciones del intelecto, partiendo de las obras de arte hasta las invenciones, los programas informáticos, las marcas y otros signos comerciales de acuerdo con la definición de la Organización Mundial de la Propiedad Intelectual OMPI (2021), apoyándose su conceptualización con el Artículo 27 de la Declaración Universal de los Derechos Humanos; en el mundo actualmente se cuenta con 25 tratados internacionales de protección de la propiedad intelectual.
-        .row.justify-content-around.align-items-center.BGR05.p-4
-          .col-lg-2.col-sm-2.col-3(data-aos="fade-right")
-            img(src="@/assets/curso/tema3/img13.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.mb-0 Conozca el folleto de asesoría jurídica elaborado por la Organización Mundial de la Propiedad Intelectual OMPI.
-              .col-sm-auto(data-aos="fade-left")
-                a.boton.color-acento-botones(href="https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf" target="_blank")
-                  span Descargar  
-                  i.fas.fa-file-download
-      .col-md-4.col-8.order-md-2.order-1.mb-md-2.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/tema3/img14.png")
+      .row.justify-content-center.mb-4
+        .col-md-8.order-md-1.order-2
+          p Refiere a la protección de las creaciones del intelecto, partiendo de las obras de arte hasta las invenciones, los programas informáticos, las marcas y otros signos comerciales de acuerdo con la definición de la Organización Mundial de la Propiedad Intelectual OMPI (2021), apoyándose su conceptualización con el Artículo 27 de la Declaración Universal de los Derechos Humanos; en el mundo actualmente se cuenta con 25 tratados internacionales de protección de la propiedad intelectual.
+          .row.justify-content-around.align-items-center.BGR05.p-4
+            .col-lg-2.col-sm-2.col-3(data-aos="fade-right")
+              img.w-75(src="@/assets/curso/tema3/img13.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 Conozca el folleto de asesoría jurídica elaborado por la Organización Mundial de la Propiedad Intelectual OMPI.
+                .col-sm-auto(data-aos="fade-left")
+                  a.boton.color-acento-botones(href="https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf" target="_blank")
+                    span Descargar  
+                    i.fas.fa-file-download
+        .col-md-4.col-8.order-md-2.order-1.mb-md-2.mb-4(data-aos="fade-left")
+          img(src="@/assets/curso/tema3/img14.png")
     
     separador
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Políticas de confidencialidad
     
@@ -229,9 +229,9 @@
     p Las plataformas tienen dentro de los términos y condiciones de uso un apartado que bien podría entenderse como un contrato de adhesión, que es aceptado desde el momento en que se abre una cuenta como nuevo usuario. En este sentido, es importante identificar la normatividad colombiana que regula las identidades en la Web y la propiedad intelectual. Adelante: 
 
     .row.justify-content-center.mb-4
-      .col-md-10.BGIMG01(data-aos="zoom-in")
+      .col-lg-10.BGIMG01(data-aos="zoom-in")
         .row.justify-content-center
-          .col-md-9.col-11
+          .col-lg-9.col-11
             LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
 
 </template>
