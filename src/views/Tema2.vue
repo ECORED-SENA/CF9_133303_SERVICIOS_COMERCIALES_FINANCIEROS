@@ -57,29 +57,27 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/LaTDcAQCFXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
-  .container.BG09.p-4.p-md-5  
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2  2.2	Políticas de seguridad
-    .BG09.p-4
-      p Para entender los términos sobre #[strong políticas de seguridad] es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
-      p Ahora, si se le adiciona el concepto de seguridad, por supuesto se refiere a la declaración de alto nivel donde la organización fija una posición frente a la necesidad de contar con un sistema de gestión de seguridad de la información, que identifique el qué, de quién y cómo se deben proteger los recursos o activos tecnológicos necesarios para el cumplimiento del #[i core] de la empresa.
-      
-      .row.justify-content-center
-        .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img05.png')
-        .col-md-7(data-aos="fade-left")
-          .bloque-texto-d.color-acento-contenido.p-4
-            .bloque-texto-d__texto.mb-2
-              p En términos más generales,
-              <br><br>
-              i.fas.fa-quote-left
-              p las políticas de seguridad son un conjunto de reglas, normas y protocolos de actuación que se encargan de velar por la seguridad informática de la empresa. Se trata de una especie de plan realizado para combatir todos los riesgos a los que está expuesta la empresa en el mundo digital.  De esta forma se mantendrá la organización alejada de cualquier ataque externo peligroso
-              i.fas.fa-quote-right
-            .bloque-texto-d__autor 
-              .h4.mb-0 (Caurín, 2018).
+    .BGM09.p-4.p-md-5  
+      #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2  2.2	Políticas de seguridad
+        p Para entender los términos sobre #[strong políticas de seguridad] es necesario definir el concepto más general de política, siendo esta una declaración de alto nivel que describe la posición de la entidad sobre un tema específico.
+        p Ahora, si se le adiciona el concepto de seguridad, por supuesto se refiere a la declaración de alto nivel donde la organización fija una posición frente a la necesidad de contar con un sistema de gestión de seguridad de la información, que identifique el qué, de quién y cómo se deben proteger los recursos o activos tecnológicos necesarios para el cumplimiento del #[i core] de la empresa.
+        
+        .row.justify-content-center
+          .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
+            img(src='@/assets/curso/tema2/img05.png')
+          .col-md-7(data-aos="fade-left")
+            .bloque-texto-d.color-acento-contenido.p-4
+              .bloque-texto-d__texto.mb-2
+                p En términos más generales,
+                <br><br>
+                i.fas.fa-quote-left
+                p las políticas de seguridad son un conjunto de reglas, normas y protocolos de actuación que se encargan de velar por la seguridad informática de la empresa. Se trata de una especie de plan realizado para combatir todos los riesgos a los que está expuesta la empresa en el mundo digital.  De esta forma se mantendrá la organización alejada de cualquier ataque externo peligroso
+                i.fas.fa-quote-right
+              .bloque-texto-d__autor 
+                .h4.mb-0 (Caurín, 2018).
+    
     separador
-  
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2  2.3 Estándares y normas de referencia
     
@@ -149,19 +147,19 @@
     p De acuerdo con esta norma es necesario clasificar e inventariar todos los activos de la información de una empresa luego de ser identificados, esto se hace como cumplimiento al modelo de seguridad y privacidad de la información, el cual presenta la siguiente forma: 
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="fade-right")
+      .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-numerada.color-primario.p-5.pb-5
           .tarjeta-numerada__numero
             .h2 1
           .h4 Inventario de activos: 
           p.mb-5 se deben identificar todos los activos de la compañía y a su vez crear un inventario de estos.<br><br>
-      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-acento-contenido.p-5.p-5.pb-5
           .tarjeta-numerada__numero
             .h2 2
           .h4 Propiedad de activos: 
           p.mb-5 cada activo identificado debe contar con un responsable o propietario.<br><br>
-      .col-lg-3.col-sm-6.mb-sm-0.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 3

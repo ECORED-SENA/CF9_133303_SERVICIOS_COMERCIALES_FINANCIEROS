@@ -174,9 +174,9 @@
                 a.boton.color-acento-botones(href="https://www.wipo.int/edocs/pubdocs/es/wipo_pub_909_2016.pdf" target="_blank")
                   span Descargar  
                   i.fas.fa-file-download
-    separador.mb-0
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
-    .BG09.p-4
+    
+    separador
+    .BGM09.p-4
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Protección de la propiedad intelectual
 
@@ -198,7 +198,6 @@
           img(src="@/assets/curso/tema3/img14.png")
     
     separador
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Políticas de confidencialidad
     
