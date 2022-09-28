@@ -176,7 +176,7 @@
                   i.fas.fa-file-download
     
     separador
-    .BGM09.p-4
+    .BGM09.p-5
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Protección de la propiedad intelectual
 
