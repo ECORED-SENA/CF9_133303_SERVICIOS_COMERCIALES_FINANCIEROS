@@ -23,7 +23,7 @@
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2  2.1	Principios
+      h2 2.1 Principios
     
     p Como se mencionó anteriormente, la seguridad de la información se centra en garantizar lo que en el mundo de la seguridad se conoce como la triada CIA, que nada tiene que ver con una famosa agencia de Estados Unidos, se le da este nombre ya que corresponde a las iniciales de los principios que sustentan la seguridad de la información: confidencialidad, integridad y disponibilidad.
     p A continuación se describe cada concepto:
@@ -152,25 +152,25 @@
           .tarjeta-numerada__numero
             .h2 1
           .h4 Inventario de activos: 
-          p.mb-5 se deben identificar todos los activos de la compañía y a su vez crear un inventario de estos.<br><br>
+          p.mb-5 Se deben identificar todos los activos de la compañía y a su vez crear un inventario de estos.<br><br>
       .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-acento-contenido.p-5.p-5.pb-5
           .tarjeta-numerada__numero
             .h2 2
           .h4 Propiedad de activos: 
-          p.mb-5 cada activo identificado debe contar con un responsable o propietario.<br><br>
+          p.mb-5 Cada activo identificado debe contar con un responsable o propietario.<br><br>
       .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="zoom-in")
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 3
           .h4 Clasificación de la información: 
-          p.mb-0 se debe realizar su respectiva clasificación dependiendo del requerimiento legal, valor, criticidad, divulgación y modificación.   
+          p.mb-0 Se debe realizar su respectiva clasificación dependiendo del requerimiento legal, valor, criticidad, divulgación y modificación.   
       .col-lg-3.col-sm-6(datsmaos="fade-left")
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 4
           .h4 Manipulación de información:
-          p.mb-0 se debe contar con procedimientos que permitan etiquetar la información y que funcione con el sistema de clasificación que definió la empresa.
+          p.mb-0 Se debe contar con procedimientos que permitan etiquetar la información y que funcione con el sistema de clasificación que definió la empresa.
 
 </template>
 

@@ -57,7 +57,7 @@
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1.	Etapas de la ingeniería de requisitos
+      h2 1.1	Etapas de la ingeniería de requisitos
     
     p Hay cuatro etapas en un proceso típico de ingeniería de requisitos utilizadas para el desarrollo de un producto único, que son: elicitación, análisis, especificación y validación de los requisitos.  
     p El siguiente gráfico conlleva a conocer las etapas mencionadas:
@@ -93,7 +93,7 @@
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2  1.2	Técnicas de modelado
+      h2 1.2	Técnicas de modelado
 
     p.mb-5 Para estas técnicas se crea y desarrolla el uso de algoritmos (secuencias de instrucciones para solucionar problemas específicos).
 

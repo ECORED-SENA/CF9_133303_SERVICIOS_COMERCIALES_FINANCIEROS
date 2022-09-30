@@ -11,7 +11,7 @@
     p.mb-5 Los derechos conexos, por otro lado, son aquellos derechos reconocidos a los artistas, intérpretes o ejecutantes por los productores de fonogramas y los organismos de radiodifusión sobre sus interpretaciones, fonogramas o emisiones de radiodifusión. 
       span.etiqueta #[strong La regulación del derecho de autor y los derechos conexos se encuentra principalmente en la Ley 23 de 1982 y la Decisión Andina 351 de 1993].
 
-    p.text-center Colombia se rige por la normatividad establecida en la Ley 23 de 1982,sobre los derechos de autor, en la cual se indica: 
+    p.text-center Colombia se rige por la normatividad establecida en la Ley 23 de 1982, sobre los derechos de autor, en la cual se indica: 
 
     .row.justify-content-center.mb-4
       .col-md-10.BGR03.p-4(data-aos="zoom-in")
@@ -106,51 +106,51 @@
               ul.lista-ul--color.c--4
                 li 
                   i.vineta
-                  | Literarias
+                  | Literarias.
                 li 
                   i.vineta
-                  | Musicales, con o sin letra
+                  | Musicales, con o sin letra.
                 li 
                   i.vineta
-                  | Dramáticas
+                  | Dramáticas.
                 li 
                   i.vineta
-                  | Danza
+                  | Danza.
                 li 
                   i.vineta
-                  | Pictóricas o de dibujo
+                  | Pictóricas o de dibujo.
                 li 
                   i.vineta
-                  | Escultóricas y de carácter plástico
+                  | Escultóricas y de carácter plástico.
                 li 
                   i.vineta
-                  | Caricatura e historieta
+                  | Caricatura e historieta.
                 li 
                   i.vineta
-                  p.mb-0 Arquitectónicas
+                  p.mb-0 Arquitectónicas.
             .col-md-6.mb-md-0.mb-4
               ul.lista-ul--color.c--4
                 li 
                   i.vineta
-                  | Cinematográficas y audiovisuales
+                  | Cinematográficas y audiovisuales.
                 li 
                   i.vineta
-                  | Programas de radio y TV
+                  | Programas de radio y TV.
                 li 
                   i.vineta
-                  | Programas de cómputo
+                  | Programas de cómputo.
                 li 
                   i.vineta
-                  | Fotográficas
+                  | Fotográficas.
                 li 
                   i.vineta
-                  |  Obras de compilación. 
+                  |  Obras de compilación.
                 li 
                   i.vineta
-                  | Obras de arte aplicado 
+                  | Obras de arte aplicado.
                 li 
                   i.vineta
-                  p.mb-0 (incluyen diseño gráfico o textil)
+                  p.mb-0 (Incluyen diseño gráfico o textil).
           p.mb-0 Todas aquellas que por su analogía se logren incluir en la rama afín a su naturaleza.
         .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4
           img(src='@/assets/curso/tema3/img11.png')

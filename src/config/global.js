@@ -194,6 +194,13 @@ export default {
       tipo: 'Folleto',
       link: 'https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf',
     },
+    {
+      tema: 'Principios básicos del derecho de autor y los derechos conexos',
+      referencia:
+        'Organización Mundial de la Propiedad Intelectual OMPI. (2016). Principios básicos del derecho de autor y los derechos conexos.',
+      tipo: 'Folleto',
+      link: 'https://www.wipo.int/edocs/pubdocs/es/wipo_pub_909_2016.pdf',
+    },
   ],
   glosario: [
     {
@@ -249,7 +256,7 @@ export default {
     },
     {
       referencia:
-        'Boehm, B. (1979). A spiral model of software development and enhancement. ACM Software Engineering Notes, 11(4), p. 22-42.',
+        'Boehm, B. (1979). <em>A spiral model of software development and enhancement. ACM Software Engineering Notes</em>, 11(4), p. 22-42.',
     },
     {
       referencia:
@@ -447,7 +454,7 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Jhon Fredy Rodriguez Castiblanco',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
